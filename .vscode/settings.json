@@ -3,5 +3,50 @@
     "**/node_modules": true,
     "**/bower_components": true,
     "**/.sfdx": true
-  }
+  },
+  // ファイルを保存するときにフォーマットする
+  "editor.formatOnSave": true,
+  // エディターで制御文字を表示する
+  "editor.renderControlCharacters": true,
+  // エディターで空白文字を表示する
+  "editor.renderWhitespace": "all",
+  // ブラケットペアのガイドを有効にする
+  "editor.guides.bracketPairs": true,
+  // ブラケットペアの彩色を有効にする
+  "editor.bracketPairColorization.enabled": true,
+  // ファイルの保存時に末尾の空白をトリミングする
+  "files.trimTrailingWhitespace": true,
+  // ファイルの保存時に最新の行を末尾に挿入する
+  "files.insertFinalNewline": true,
+  // ファイルの保存時に最終行以降の新しい行をトリミングする
+  "files.trimFinalNewlines": true,
+  // SObjectの定義を更新する
+  "salesforcedx-vscode-core.enable-sobject-refresh-on-startup": true,
+  // ローカルのソースファイル保存時にデプロイする
+  "salesforcedx-vscode-core.push-or-deploy-on-save.enabled": false,
+  // Apexテスト実行時にコードカバレッジの結果を取得する
+  "salesforcedx-vscode-core.retrieve-test-code-coverage": true,
+  // Salesforceによる利用状況データの収集を有効化する
+  "salesforcedx-vscode-core.telemetry.enabled": false,
+  // Salesforce CLIコマンドのステータスメッセージをポップアップする
+  "salesforcedx-vscode-core.show-cli-success-msg": false,
+
+  // ===========================
+  // language specified settings
+  // ===========================
+  "[apex]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
