@@ -20,7 +20,7 @@
   "files.insertFinalNewline": true,
   // ファイルの保存時に最終行以降の新しい行をトリミングする
   "files.trimFinalNewlines": true,
-  // SObjectの定義を更新する
+  // 起動時にSObjectの定義を更新する
   "salesforcedx-vscode-core.enable-sobject-refresh-on-startup": true,
   // ローカルのソースファイル保存時にデプロイする
   "salesforcedx-vscode-core.push-or-deploy-on-save.enabled": false,
