@@ -15,7 +15,7 @@
 npm install -g sfdx-cli
 ```
 
-## `setting.json`：VSCode の設定を記述するファイル
+## `.vscode/setting.json`：VSCode の設定を記述するファイル
 
 -   ファイルを保存するときにフォーマットする
 -   エディターで制御文字を表示する
@@ -30,6 +30,12 @@ npm install -g sfdx-cli
 -   Apex テスト実行時にコードカバレッジの結果を取得する
 -   Salesforce による利用状況データの収集を有効化しない
 -   Salesforce CLI コマンドのステータスメッセージをポップアップしない
+
+## `.vscode/launch.json`：Apex Replay Debugger の設定を記述するファイル
+
+[Apex Replay Debugger](https://developer.salesforce.com/tools/vscode/ja/apex/replay-debugger)は VSCode の拡張機能として使える Apex のデバッグ機能です。
+
+> 参考：https://dackdive.hateblo.jp/entry/2018/10/31/100000
 
 ## `.eslintignore`：任意のディレクトリ、ファイルをチェック対象から除外する
 
